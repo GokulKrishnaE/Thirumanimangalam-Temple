@@ -1,0 +1,39 @@
+section{
+    padding: 60px;
+    @media(max-width:991px){
+        padding: 50px 15px;
+    }
+}
+.donate-now{
+    background-color: #FFDCA8;
+    padding: 0;
+    background: url('../images/temple-photo.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 0 70%;
+    position: relative;
+    color: white;
+    isolation: isolate;
+    &::after{
+        content: "";
+        position: absolute;
+        inset: 0;
+        width: 100%;
+        height: 100%;
+        background: linear-gradient(117deg, black, transparent);
+        z-index: -1;
+    }
+}
+.widgets-section{
+    // background-color:#ffd871;
+    padding: 80px 60px;
+}
+
+section.contactdetails{
+    padding: 15px 60px;
+    background-color: #9F2424;
+}
+.notice-section{
+    background-color: rgb(255 235 183);
+    padding-bottom: 80px;
+}

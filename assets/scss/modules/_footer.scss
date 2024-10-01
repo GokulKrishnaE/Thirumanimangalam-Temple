@@ -1,0 +1,38 @@
+footer{
+    background-color: #9f2424ba;
+    .footer-inner{
+        padding: 40px 0;
+        color: white;
+    }
+
+    .footer-title{
+        font-size: 20px;
+        font-weight: 700;
+        margin-bottom: 20px;
+    }
+    ul.footer-links{
+        margin: 0;
+        padding: 0;
+        list-style: none;
+    }
+
+    .address-item{
+        position: relative;
+        padding-left: 25px;
+        i{
+            position: absolute;
+            top: 5px;
+            left: 0;
+            font-size: 18px;
+        }
+        p{
+            margin: 0;
+        }
+    }
+}
+
+.copyright{
+    background-color: #9F2424;
+    padding: 15px 0;
+    color: white;
+}

@@ -1,0 +1,24 @@
+.btn{
+    padding: 15px 30px;
+    font-weight: 600;
+    border-radius: 100vw;
+}
+
+.btn-primary{
+    background-color: $yellow;
+    border-color: $yellow;
+    color: black;
+    &:hover{
+        background-color: #930000;
+        border-color: #930000;
+    }
+}
+.btn-secondary{
+    background-color: #930000;
+    border-color: #930000;
+    color: #fff;
+}
+
+.btn-sm{
+    padding: 8px 20px;
+}
