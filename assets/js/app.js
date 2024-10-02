@@ -82,6 +82,12 @@ $(document).ready(function(){
     $('body').toggleClass('overflow-hidden')
   })
 
+  $('.mob-header button').click(function(){
+    $('body').toggleClass('overflow-hidden')
+    $(this).find('i').toggleClass('fa-xmark')
+    $('header ul').toggleClass('active')
+  })
+
 })
 
 

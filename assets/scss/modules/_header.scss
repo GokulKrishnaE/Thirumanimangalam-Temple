@@ -9,7 +9,7 @@ header{
         @media(max-width:991px){
             position: absolute;
             flex-direction: column;
-            background: #FFB900;
+            background: #ffda75;
             inset: 0 20% auto 0;
             z-index: 10;
             height: 100vh;
@@ -22,6 +22,12 @@ header{
                 visibility: visible;
                 opacity: 1;
                 transform: translateX(0); 
+            }
+            .nav-link{
+                font-size: 18px;
+            }
+            li:not(:first-child,:last-child) a{
+                border-bottom: 1px solid #ffc1c1;
             }
         }
         .nav-item{
@@ -60,10 +66,12 @@ header{
     position: fixed;
     inset: 0 0 auto 0;
     z-index: 99;
-    background-color: #FFB900;
+    background-color: #ffda75;
+    width: 100vw;
     button{
         background: none;
         border: none;
         outline: none;
+        font-size: 22px;
     }
 }

@@ -27,10 +27,18 @@ section{
 .widgets-section{
     // background-color:#ffd871;
     padding: 80px 60px;
+    @media(max-width:991px){
+        padding: 50px 15px;
+    }
 }
 
 section.contactdetails{
-    padding: 15px 60px;
+    @media(min-width:768px){
+        padding: 15px 60px;
+    }
+    @media(max-width:768px){
+        padding: 15px;
+    }
     background-color: #9F2424;
 }
 .notice-section{
