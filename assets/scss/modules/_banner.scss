@@ -3,8 +3,8 @@
     .hero-image-slider{
         .item{
             height: 40vh;
-            @media(max-width:991px){
-                height: 300px;
+            @media(max-width:768px){
+                height: 200px;
             }
         }
         img{

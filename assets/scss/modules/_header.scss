@@ -10,18 +10,17 @@ header{
             position: absolute;
             flex-direction: column;
             background: #ffda75;
-            inset: 0 20% auto 0;
+            inset: 55px 0 auto 0;
             z-index: 10;
-            height: 100vh;
+            height: 0;
             justify-content: start;
-            transform: translateX(-500px);
             visibility: hidden;
             opacity: 0;
-            transition: transform 0.5s ease-in-out;
+            transition: height 0.5s ease-in-out;
             &.active{
                 visibility: visible;
                 opacity: 1;
-                transform: translateX(0); 
+                height: auto;
             }
             .nav-link{
                 font-size: 18px;
@@ -62,12 +61,11 @@ header{
 }
 
 .mob-header{
-    padding: 10px 40px;
-    position: fixed;
-    inset: 0 0 auto 0;
-    z-index: 99;
-    background-color: #ffda75;
-    width: 100vw;
+    position: relative;
+    @media(max-width:768px){
+        padding: 10px 40px;
+        background-color: #ffda75;
+    }
     button{
         background: none;
         border: none;
