@@ -8,6 +8,7 @@ $(document).ready(function(){
   })
   $('[data-bs-toggle="tooltip"]').tooltip()
 
+  navigation()
 
   $('#eventsslider').slick({
     dots: false,
@@ -75,6 +76,8 @@ $(document).ready(function(){
       }
     }
   });
+
+    
 
   $('.match-height').matchHeight()
 
@@ -185,8 +188,8 @@ const sections = document.querySelectorAll('.section');
 
 function navigation(){
   const currentUrl= window.location.pathname.split('/').pop()
-  $('.navbar-nav li a').removeClass('active')
-  $('.navbar-nav li').each(function(){
+  $('.mob-header ul li a').removeClass('active')
+  $('.mob-header ul li').each(function(){
     if($(this).hasClass('dropdown')){
       $(this).find('ul li').each(function(){
         if($(this).find('a').attr('href') === currentUrl){
