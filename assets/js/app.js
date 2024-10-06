@@ -91,6 +91,20 @@ $(document).ready(function(){
     $('header ul').toggleClass('active')
   })
 
+  $('[data-gallery-category]').each(function(){
+    $(this).click(function(){
+      $('[data-gallery-show]').hide()
+      $('.gallery-categories').hide()
+      $('#backButton').show()
+      $(`[data-gallery-show="${$(this).attr('data-gallery-category')}"]`).show()
+    })
+  })
+  $('#backButton').click(function(){
+    $('[data-gallery-show]').hide()
+    $('.gallery-categories').show()
+    $(this).hide()
+  })
+
 })
 
 

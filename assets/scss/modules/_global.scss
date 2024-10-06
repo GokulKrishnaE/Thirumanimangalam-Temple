@@ -389,6 +389,35 @@ marquee{
 
 }
 
+.gallery-categories{
+    img{
+        height: 250px;
+        width: 100%;
+        object-fit: cover;
+        object-position: 0 0;
+        transition: transform 0.3s ease-in-out;
+    }
+    .category{
+        position: relative;
+        cursor: pointer;
+        .category-title{
+            position: absolute;
+            top: auto;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            width: 100%;
+            padding: 10px 20px;
+            background-color: #930000;
+            text-align: center;
+            h3{
+                font-size: 18px;
+                color: white;
+            }
+        }
+    }
+}
+
 .table{
     thead{
         background-color: #ffd871;
@@ -436,8 +465,24 @@ marquee{
 }
 
 .location{
-    @media(min-width:991px){
-        max-width: 70%;
-         margin: 0 auto;
+    img{
+        height: 100%;
+        object-fit: cover;
     }
+    iframe{
+        width: 100%;
+        height: 100%;
+        max-height: 300px;
+    }
+}
+
+div[data-gallery-show]{
+    display: none;
+}
+.backButton{
+    font-weight: 700;
+    font-size: 18px;
+    color: #930000;
+    display: none;
+    margin-bottom: 30px;
 }

@@ -81,55 +81,79 @@
             <div class="max-80-auto">
                 <h2 class="textSecondary text-center mb-5">Gallery</h2>
                 <div class="galleryContainer">
-                    <div class="row g-3">
-                        <div class="col-sm-6 col-lg-3">
-                            <div class="spotlight" data-title="This is a title" data-description="This is a description for image" data-src="./assets/images/Gallery/WhatsApp Image 2024-10-01 at 5.10.56 PM.jpeg">
-                                <img class="img-fluid" src="./assets/images/Gallery/WhatsApp Image 2024-10-01 at 5.10.56 PM.jpeg" alt="">
+                    <button class="noStyle backButton" id="backButton"><i class="fas fa-chevron-left me-3"></i>Back</button>
+                    <div class="gallery-categories" id="gallery-categories">
+                        <div class="row gx-3">
+                            <div class="col-sm-6 col-lg-3 mb-3">
+                                <div class="category" data-gallery-category="category1">
+                                    <img class="img-fluid" src="./assets/images/Gallery/WhatsApp Image 2024-10-01 at 5.10.56 PM.jpeg" alt="">
+                                    <div class="category-title">
+                                        <h3>Category 1</h3>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-sm-6 col-lg-3">
+                                <div>
+                                    <div class="category" data-gallery-category="category2">
+                                        <img class="img-fluid" src="./assets/images/Gallery/WhatsApp Image 2024-10-01 at 5.10.57 PM (2).jpeg" alt="">
+                                        <div class="category-title">
+                                            <h3>Category 1</h3>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
                         </div>
-                        <div class="col-sm-6 col-lg-3">
-                            <div class="spotlight" data-title="This is a title" data-description="This is a description for image" data-src="./assets/images/Gallery/WhatsApp Image 2024-10-01 at 5.10.57 PM (1).jpeg">
-                                <img class="img-fluid" src="./assets/images/Gallery/WhatsApp Image 2024-10-01 at 5.10.57 PM (1).jpeg" alt="">
+                    </div>
+                    <div data-gallery-show="category1">
+                        <div class="row g-3" >
+                            <div class="col-sm-6 col-lg-3">
+                                <div class="spotlight" data-title="This is a title" data-description="This is a description for image" data-src="./assets/images/Gallery/WhatsApp Image 2024-10-01 at 5.10.56 PM.jpeg">
+                                    <img class="img-fluid" src="./assets/images/Gallery/WhatsApp Image 2024-10-01 at 5.10.56 PM.jpeg" alt="">
+                                </div>
+                            </div>
+                            <div class="col-sm-6 col-lg-3">
+                                <div class="spotlight" data-title="This is a title" data-description="This is a description for image" data-src="./assets/images/Gallery/WhatsApp Image 2024-10-01 at 5.10.57 PM (1).jpeg">
+                                    <img class="img-fluid" src="./assets/images/Gallery/WhatsApp Image 2024-10-01 at 5.10.57 PM (1).jpeg" alt="">
+                                </div>
+                            </div>
+                            <div class="col-sm-6 col-lg-3">
+                                <div class="spotlight" data-title="This is a title" data-description="This is a description for image" data-src="./assets/images/Gallery/WhatsApp Image 2024-10-01 at 5.10.57 PM (2).jpeg">
+                                    <img class="img-fluid" src="./assets/images/Gallery/WhatsApp Image 2024-10-01 at 5.10.57 PM (2).jpeg" alt="">
+                                </div>
+                            </div>
+                            <div class="col-sm-6 col-lg-3">
+                                <div class="spotlight" data-title="This is a title" data-description="This is a description for image" data-src="./assets/images/Gallery/WhatsApp Image 2024-10-01 at 5.10.57 PM.jpeg">
+                                    <img class="img-fluid" src="./assets/images/Gallery/WhatsApp Image 2024-10-01 at 5.10.57 PM.jpeg" alt="">
+                                </div>
+                            </div>
+                            <div class="col-sm-6 col-lg-3">
+                                <div class="spotlight" data-title="This is a title" data-description="This is a description for image" data-src="./assets/images/Gallery/WhatsApp Image 2024-10-01 at 5.10.58 PM (1).jpeg">
+                                    <img class="img-fluid" src="./assets/images/Gallery/WhatsApp Image 2024-10-01 at 5.10.58 PM (1).jpeg" alt="">
+                                </div>
                             </div>
                         </div>
-                        <div class="col-sm-6 col-lg-3">
-                            <div class="spotlight" data-title="This is a title" data-description="This is a description for image" data-src="./assets/images/Gallery/WhatsApp Image 2024-10-01 at 5.10.57 PM (2).jpeg">
-                                <img class="img-fluid" src="./assets/images/Gallery/WhatsApp Image 2024-10-01 at 5.10.57 PM (2).jpeg" alt="">
+                    </div>
+                    <div data-gallery-show="category2">
+                        <div class="row g-3" >
+                            <div class="col-sm-6 col-lg-3">
+                                <div class="spotlight" data-title="This is a title" data-description="This is a description for image" data-src="./assets/images/Gallery/WhatsApp Image 2024-10-01 at 5.10.57 PM (1).jpeg">
+                                    <img class="img-fluid" src="./assets/images/Gallery/WhatsApp Image 2024-10-01 at 5.10.57 PM (1).jpeg" alt="">
+                                </div>
                             </div>
-                        </div>
-                        <div class="col-sm-6 col-lg-3">
-                            <div class="spotlight" data-title="This is a title" data-description="This is a description for image" data-src="./assets/images/Gallery/WhatsApp Image 2024-10-01 at 5.10.57 PM.jpeg">
-                                <img class="img-fluid" src="./assets/images/Gallery/WhatsApp Image 2024-10-01 at 5.10.57 PM.jpeg" alt="">
+                            <div class="col-sm-6 col-lg-3">
+                                <div class="spotlight" data-title="This is a title" data-description="This is a description for image" data-src="./assets/images/Gallery/WhatsApp Image 2024-10-01 at 5.10.57 PM (2).jpeg">
+                                    <img class="img-fluid" src="./assets/images/Gallery/WhatsApp Image 2024-10-01 at 5.10.57 PM (2).jpeg" alt="">
+                                </div>
                             </div>
-                        </div>
-                        <div class="col-sm-6 col-lg-3">
-                            <div class="spotlight" data-title="This is a title" data-description="This is a description for image" data-src="./assets/images/Gallery/WhatsApp Image 2024-10-01 at 5.10.58 PM (1).jpeg">
-                                <img class="img-fluid" src="./assets/images/Gallery/WhatsApp Image 2024-10-01 at 5.10.58 PM (1).jpeg" alt="">
+                            <div class="col-sm-6 col-lg-3">
+                                <div class="spotlight" data-title="This is a title" data-description="This is a description for image" data-src="./assets/images/Gallery/WhatsApp Image 2024-10-01 at 5.10.57 PM.jpeg">
+                                    <img class="img-fluid" src="./assets/images/Gallery/WhatsApp Image 2024-10-01 at 5.10.57 PM.jpeg" alt="">
+                                </div>
                             </div>
-                        </div>
-                        <div class="col-sm-6 col-lg-3">
-                            <div class="spotlight" data-title="This is a title" data-description="This is a description for image" data-src="./assets/images/Gallery/WhatsApp Image 2024-10-01 at 5.10.56 PM.jpeg">
-                                <img class="img-fluid" src="./assets/images/Gallery/WhatsApp Image 2024-10-01 at 5.10.56 PM.jpeg" alt="">
-                            </div>
-                        </div>
-                        <div class="col-sm-6 col-lg-3">
-                            <div class="spotlight" data-title="This is a title" data-description="This is a description for image" data-src="./assets/images/Gallery/WhatsApp Image 2024-10-01 at 5.10.57 PM (1).jpeg">
-                                <img class="img-fluid" src="./assets/images/Gallery/WhatsApp Image 2024-10-01 at 5.10.57 PM (1).jpeg" alt="">
-                            </div>
-                        </div>
-                        <div class="col-sm-6 col-lg-3">
-                            <div class="spotlight" data-title="This is a title" data-description="This is a description for image" data-src="./assets/images/Gallery/WhatsApp Image 2024-10-01 at 5.10.57 PM (2).jpeg">
-                                <img class="img-fluid" src="./assets/images/Gallery/WhatsApp Image 2024-10-01 at 5.10.57 PM (2).jpeg" alt="">
-                            </div>
-                        </div>
-                        <div class="col-sm-6 col-lg-3">
-                            <div class="spotlight" data-title="This is a title" data-description="This is a description for image" data-src="./assets/images/Gallery/WhatsApp Image 2024-10-01 at 5.10.57 PM.jpeg">
-                                <img class="img-fluid" src="./assets/images/Gallery/WhatsApp Image 2024-10-01 at 5.10.57 PM.jpeg" alt="">
-                            </div>
-                        </div>
-                        <div class="col-sm-6 col-lg-3">
-                            <div class="spotlight" data-title="This is a title" data-description="This is a description for image" data-src="./assets/images/Gallery/WhatsApp Image 2024-10-01 at 5.10.58 PM (1).jpeg">
-                                <img class="img-fluid" src="./assets/images/Gallery/WhatsApp Image 2024-10-01 at 5.10.58 PM (1).jpeg" alt="">
+                            <div class="col-sm-6 col-lg-3">
+                                <div class="spotlight" data-title="This is a title" data-description="This is a description for image" data-src="./assets/images/Gallery/WhatsApp Image 2024-10-01 at 5.10.58 PM (1).jpeg">
+                                    <img class="img-fluid" src="./assets/images/Gallery/WhatsApp Image 2024-10-01 at 5.10.58 PM (1).jpeg" alt="">
+                                </div>
                             </div>
                         </div>
                     </div>
