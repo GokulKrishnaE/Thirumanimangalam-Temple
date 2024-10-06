@@ -17,6 +17,11 @@
     background-color: #930000;
     border-color: #930000;
     color: #fff;
+    &:hover{
+        background-color: $yellow;
+        border-color: $yellow;
+        color: #000;
+    }
 }
 
 .btn-sm{
