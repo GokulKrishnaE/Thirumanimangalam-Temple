@@ -511,3 +511,15 @@ div[data-gallery-show]{
         transform: scale(1.05);
     }
 }
+@keyframes textZoomAnimation {
+    0%{
+        transform: scale(1);
+    }
+    100%{
+        transform: scale(1.02);
+    }
+}
+
+.textZoomAnimation{
+    animation: textZoomAnimation 0.8s ease-in-out infinite alternate-reverse;
+}
